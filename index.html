@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Índice con Chatbox</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Header</h1>
+  </header>
+  <main>
+    <nav>
+      <ul>
+        <li><a href="#seccion1">Sección 1</a></li>
+        <li><a href="#seccion2">Sección 2</a></li>
+        <li><a href="#seccion3">Sección 3</a></li>
+      </ul>
+    </nav>
+    <section id="contenido">
+      <article id="seccion1">
+        <h2>Sección 1</h2>
+        <p>Contenido de la sección 1...</p>
+      </article>
+      <article id="seccion2">
+        <h2>Sección 2</h2>
+        <p>Contenido de la sección 2...</p>
+      </article>
+      <article id="seccion3">
+        <h2>Sección 3</h2>
+        <p>Contenido de la sección 3...</p>
+      </article>
+    </section>
+    <aside id="chatbox">
+      <div id="mensajes"></div>
+      <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
+      <button id="enviarBtn">Enviar</button>
+    </aside>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
