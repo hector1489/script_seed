@@ -1,0 +1,49 @@
+# Chatbot Básico con Respuestas JSON
+
+Este proyecto es un chatbot simple que utiliza HTML, CSS y JavaScript para la interfaz, y un archivo JSON para almacenar las respuestas del bot.
+
+## Características
+
+* Interfaz de chat sencilla y fácil de usar.
+* Respuestas del bot almacenadas en un archivo JSON para facilitar la edición y expansión.
+* Saludo inicial automático al cargar la página.
+* Respuestas aleatorias para las mismas preguntas, para mayor variedad.
+
+## Cómo usarlo
+
+1.  Clona o descarga este repositorio.
+2.  Abre el archivo `index.html` en tu navegador web.
+
+## Estructura de archivos
+    ├── index.html
+    ├── style.css
+    ├── script.js
+    └── respuestas.json
+
+
+* `index.html`: Estructura HTML del chatbot.
+* `style.css`: Estilos CSS para la apariencia del chatbot.
+* `script.js`: Lógica JavaScript para el funcionamiento del chatbot.
+* `respuestas.json`: Archivo JSON con las respuestas del bot.
+
+## Personalización
+
+* **Respuestas del bot**: Modifica el archivo `respuestas.json` para cambiar o agregar respuestas del bot.
+* **Estilos**: Edita el archivo `style.css` para personalizar la apariencia del chatbot.
+* **Lógica del bot**: Modifica el archivo `script.js` para cambiar la lógica de las respuestas del bot.
+
+## Mejoras futuras
+
+* Integración de procesamiento de lenguaje natural (NLP) para mejorar la comprensión del bot.
+* Implementación de un historial de conversaciones.
+* Agregar mas categorias al json para tener respuestas mas complejas.
+* Conectar el bot a una API externa para obtener respuestas más dinámicas.
+
+## Autor
+
+* Hector Gonzalez
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
